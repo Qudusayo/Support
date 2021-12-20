@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Supporting!!",
+    "version": "0.1.0",
+    "description": "Thanks for Supporting!!",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon48.png",
+        "default_popup": "popup.html"
+    }
+}
